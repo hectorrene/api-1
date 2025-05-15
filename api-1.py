@@ -17,7 +17,7 @@ escuela = {
 }
 
 sqs = boto3.client('sqs', region_name='us-east-1')
-QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/123456789012/my-queue"
+QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/276784368250/my-api-queue"
 
 def consume_sqs():
     while True:
